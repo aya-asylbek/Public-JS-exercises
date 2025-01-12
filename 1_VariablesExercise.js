@@ -12,24 +12,27 @@
 // Data Types and Variables
 
 // Exercise 1. Simply declare a variable named 'emptyVariable'
-let emptyVariable 
+let emptyVariable; 
 // Exercise 2. Declare a variable called 'myName'
-
+let myName;
 // Exercise 3. Assign your name as the value for 'myName'
-
+myName = 'Aya';
 // Exercise 4. Declare a variable called dreamDestination and give it the value
 // of what your dream vacation destination is.
-
+let dreamDestination = 'Hawaii';
 // Exercise 5. Make the following variables and assignments
 // - a variable called num1 with a value greater than 1 and less than 10
 // - a variable called num2 with a value of greater than or equal to 1 and less
 // than or equal to 10
-
+let num1 = 5;
+let num2 = 10;
 // Exercise 6. Write a comment below explaining the difference between the rules
 // for num1 and num2 from Exercise 5. What numbers would be valid values for
 // num2 but not num1?
 //
-
+// For num1 the value should be greater than > 1
+// but less than 10( numbers are 2,3,4,5,6,7,8,9)
+//For num2 a value a greater than 
 // Exercise 7. Now we will try some addition.
 // a. Assign the the values of 4 and 6 to num1 and num2, respectively.
 // b. Make a new variable called 'theSum', and use 'num1' and
