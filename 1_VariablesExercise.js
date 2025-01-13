@@ -71,7 +71,7 @@ const myAnswerForExercise11 = "number";
 // Exercise 12. What do you think the value of emptyVariable is?
 // Place your answer below:
 
-const myAnswerForExercise12 = "";
+const myAnswerForExercise12 = "undefined";
 
 // Exercise 13. If
 const A = "R";
