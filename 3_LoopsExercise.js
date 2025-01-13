@@ -134,7 +134,14 @@ for (let i = 0; i <= favoriteNumber; i++) {
 // 3 not my favorite number
 // ...
 // (Hint - use an if statement in your loop)
-
+let favoriteNumber = 9; 
+for (let i = 0; i <= 100; i++) {
+  if (i === favoriteNumber) {
+    console.log(i + " my favorite number!");
+  } else {
+    console.log(i + " not my favorite number");
+  }
+}
 // Exercise 10. In some of the exercises above, we had you write all 3 types of loops, for practice.
 // But in real life, how would you decide which type of loop to use? You might not have an
 // exact answer, but spend a few minutes thinking about the different types of loops and/or
