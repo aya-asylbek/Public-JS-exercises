@@ -61,7 +61,7 @@ let statement = "Hi, my name is " + myName + ", and I can't wait to visit " + dr
 // Exercise 10. What is the data type of the value stored in 'dreamDestination',
 // place your answer in the quotes below:
 
-const myAnswerForExercise10 = "";
+const myAnswerForExercise10 = "string";
 
 // Exercise 11. What is the data type of the value stored in 'product',
 // place your answer in the quotes below:
