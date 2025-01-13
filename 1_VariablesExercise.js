@@ -50,6 +50,7 @@ let theProduct = num1 * num2;
 // 'dreamDestination' and the concatenation method of your choice, make the
 // value of statement to be:
 // "Hi, my name is <your name>, and I can't wait to visit <your destination>!"
+let statement = "Hi, my name is " + myName + ", and I can't wait to visit " + dreamDestination + "!";
 
 // *NOTE* For the following exercises, put your answers in the line below
 // the description of each exercise. For example, below a prompt, you may see:
