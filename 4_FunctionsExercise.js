@@ -77,12 +77,12 @@ console.log("The value of y is " + y);
 console.log("The value of z is " + z);
 
 // Without running the code, write down in a comment:
-// 1. What mysteryFunction1 does
-// 2. What prints out for the value of y
-// 3. What prints out for the value of z
+// 1. What mysteryFunction1 does first gets p1 and miltiplies to by 2.(p1 *2)
+// 2. What prints out for the value of y will be 4,cause it assigned ( const y = 4 );
+// 3. What prints out for the value of z will be 8 ,cause mysteryFunction 4 * 2 ;
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
-
+// Yes,correct.
 // Exercise 8. Read the following code (don't run it yet)
 function mysteryFunction2(p1, p2) {
   const x = p1 - p2;
@@ -94,12 +94,12 @@ console.log("The value of a is " + a);
 console.log("The value of b is " + b);
 
 // Without running the code, write down in a comment:
-// 1. What mysteryFunction2 does
-// 2. What prints out for the value of a
-// 3. What prints out for the value of b
+// 1. What mysteryFunction2 does p2 minus p1 and return result after.
+// 2. What prints out for the value of a 10 minus 4 will be 6.
+// 3. What prints out for the value of b 6 minus 1 will be 5.
 // Now run the code and see if you're correct.
 // Were you correct? If not, what did you learn?
-
+//Yes ,coreect.
 // Exercise 9. This exercise is to practice reading the documentation for functions.
 // String.split() is a function in the JavaScript standard library that you can use in your code.
 // Read about the split() function here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/split
