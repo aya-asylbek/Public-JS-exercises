@@ -45,21 +45,39 @@ for (let i = 0; i < assortedThings.length; i++) {
 // 50 small
 //
 // Then write some function calls you would use to test your function.
-
+function explainNumbers(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      if (arr[i] < 0) {
+        console.log(arr[i] + " negative");
+      } else if (arr[i] > 100) {
+        console.log(arr[i] + " BIG");
+      } else {
+        console.log(arr[i] + " small");
+      }
+    }
+  }
+  explainNumbers([-2, 200, 50]);
 // Exercise 12. Make an object called me that contains the following keys: name, favoriteAnimal, favoriteNumber
 // The values of those keys can be whatever you choose.
-
+let me = {
+    name: "Aya",
+    favoriteAnimal: "Cat",
+    favoriteNumber: 9
+};
 // Exercise 13. Add another 2 keys and values to the object (you choose what they are)
+me.favoriteSport = "Soccer";
+me.favoriteColor = "Red";
 
 // Exercise 14. Update the favoriteAnimal value to something different
-
+me.favoriteAnimal = "Dog";
 // Exercise 15. Print the value of favoriteAnimal.
 // Note: there are at least 2 ways to get the value of a key, try to write both.
-
+console.log(me.favoriteAnimal);
+console.log(me["favoriteAnimal"]);
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//I refresh my knowledge about dot notation in Objects and bracket notation.
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
