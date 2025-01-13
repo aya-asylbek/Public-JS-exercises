@@ -108,16 +108,20 @@ console.log("The value of b is " + b);
 // Here's a string I made representing my grocery list.
 // Using split() and groceryList, make an array of my grocery list items
 const groceryList = "eggs,carrots,orange juice";
-
+const groceryItems = groceryList.split(","); 
+console.log(groceryItems); 
 // Here's a string I made representing my morning schedule.
 // Using split() and mySchedule, make an array of the *first 2* things I do in the morning
 // There are multiple ways to do this, but try doing it using only the split() function.
 const mySchedule = "wake up--->brush teeth--->eat breakfast--->go to work";
-
+const firstMorningThings = mySchedule.split("--->").slice(0, 2); 
+console.log(firstMorningThings);
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+//Yes ,definately getting harder,my references MDN website,
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
