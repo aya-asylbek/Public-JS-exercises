@@ -181,6 +181,9 @@ for (let outsideCounter = 0; outsideCounter <= 3; outsideCounter++) {
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//
+// Yes it was harder for sure ,i used references: 
+//https://www.w3schools.com/js/js_loop_while.asp
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Loops_and_iteration
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/do...while
 
 // Email your file to us or commit your file to GitHub and email us a link.
