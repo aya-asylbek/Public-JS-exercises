@@ -29,7 +29,11 @@ function exercise2() {
 }
 // Exercise 3. Write a 'for' loop that prints the integers (whole numbers)
 // between 1 and 5 (inclusive).
-
+function exercise3() {
+  for (let i = 1; i <= 5; i++) {
+    console.log(i);
+  }
+}
 // Exercise 4. Now we want a loop that prints the integers
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
 // writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
