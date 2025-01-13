@@ -66,7 +66,7 @@ const myAnswerForExercise10 = "string";
 // Exercise 11. What is the data type of the value stored in 'product',
 // place your answer in the quotes below:
 
-const myAnswerForExercise11 = "";
+const myAnswerForExercise11 = "number";
 
 // Exercise 12. What do you think the value of emptyVariable is?
 // Place your answer below:
