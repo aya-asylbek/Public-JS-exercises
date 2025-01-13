@@ -44,6 +44,7 @@ function exercise4While() {
     i--;
   }
 } 
+
 function exercise4DoWhile() {
   let i = 10;
   do {
@@ -59,7 +60,27 @@ function exercise4For() {
 }
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
+function exercise5While() {
+  let i = 7;
+  while (i <= 27) {
+    console.log(i);
+    i++;
+  }
+}
 
+function exercise5DoWhile() {
+  let i = 7;
+  do {
+    console.log(i);
+    i++;
+  } while (i <= 27);
+}
+
+function exercise5For() {
+  for (let i = 7; i <= 27; i++) {
+    console.log(i);
+  }
+}
 // Exercise 6. Write a loop that prints numbers between 0 and 100, counting by tens.
 // I.e. it will print 10, then 20, then 30, etc.
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
