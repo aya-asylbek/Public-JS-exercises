@@ -11,6 +11,10 @@
 
 // Exercise 1. Define a function called logGreeting() that prints the string “Hello!” (use console.log).
 // Underneath the function, write the line of code that runs the function.
+function logGreeting() {
+  console.log("Hello!");
+}
+logGreeting();
 
 // Exercise 2. Define a function called getName() that *returns* a string that is your name.
 // Remember, this function should return the string -- not print it.
