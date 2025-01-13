@@ -51,11 +51,13 @@
 // "The value of num1 is <num1 value> and is greater than 10".
 
 function exercise1(num1) {
-  let answer1 = "";
+  let answer1 = "num1 is small";
   // ------------------------------------------
   // Write your code for exercise 1 below here:
   // ------------------------------------------
-
+  if (num1 > 10){
+    answer1 = `The value of num1 is ${num1} and is greater than 10`;
+  }
   // ------------------------------------------
   // And above here
   // ------------------------------------------
