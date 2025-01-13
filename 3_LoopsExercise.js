@@ -120,7 +120,10 @@ while (counterFour > -100) {
 
 // Exercise 8. Make a variable that contains your favorite integer. Write a loop
 // (your choice which type) that prints the integers from 0 to that number.
-
+let favoriteNumber = 9;
+for (let i = 0; i <= favoriteNumber; i++) {
+  console.log(i);
+}
 // Exercise 9. Make a variable that contains your favorite integer (this time make sure it's
 // less than 100). Write a loop (your choice which type) that prints the integers from 0 to 100.
 // Next to each number it should print "not my favorite number". But next to your favorite
