@@ -84,11 +84,11 @@ const myAnswerForExercise13 = "5";
 
 // Exercise 14 What is the value of
 // A + "n" + D
-const myAnswerForExercise14 = "";
+const myAnswerForExercise14 = "RnD";
 
 // Exercise 15 What is the value of
 // A + B * 2 + D + C / 2:
-const myAnswerForExercise15 = "";
+const myAnswerForExercise15 = "R2D2";
 
 // Exercise 16 What is the value of A * B
 const myAnswerForExercise16 = "";
