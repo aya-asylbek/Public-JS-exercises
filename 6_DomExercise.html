@@ -58,14 +58,21 @@ For this exercise, don't change the HTML code given.
     console.log(listItems);
 
     // Exercise 6: Use JavaScript to find the *number* of list items on the page. console.log the output.
-
+    console.log(listItems.length);
     // Exercise 7: Using JavaScript, create a list item and add it to the end of the ordered list.
-
+    const newItem = document.createElement("li");
+    newItem.innerText = "Cat";
+    document.getElementById("ol1").appendChild(newItem);
     // Exercise 8: Using JavaScript, make it so that when button1 is clicked,
     // an alert pops up saying "Hi from Techtonica".
+    document.getElementById("button1").addEventListener("click", function () {
+      alert("Hi from Techtonica");
+    });
 
     // Exercise 9: In your own words, write a few sentences explaining what the DOM is. Write your answer in a comment below:
-    //
+    // DOM is structure of document which connects web pages to script of programming
+    //language.It is like a logical tree, where with using some methods you 
+    //can change style,content or structure of document.
 
     // The next two exercises combine the DOM with other JavaScript you've learned. Try them for an extra challenge!
 
