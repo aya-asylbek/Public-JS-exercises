@@ -134,7 +134,7 @@ for (let i = 0; i <= favoriteNumber; i++) {
 // 3 not my favorite number
 // ...
 // (Hint - use an if statement in your loop)
-let favoriteNumber = 9; 
+favoriteNumber = 9; 
 for (let i = 0; i <= 100; i++) {
   if (i === favoriteNumber) {
     console.log(i + " my favorite number!");
@@ -146,8 +146,9 @@ for (let i = 0; i <= 100; i++) {
 // But in real life, how would you decide which type of loop to use? You might not have an
 // exact answer, but spend a few minutes thinking about the different types of loops and/or
 // doing some research and write down your thoughts in a comment below:
-//
-
+// for loop its better to use when you know how many iterations you will use.
+// do while lopp checks that code will work for at least once or as long as condition evaluates to  true.
+// while loop works as long as condition is true.
 // Exercise 11. Now we'll practice using nested loops (a loop inside another loop)!
 // Update the nested loops below to so that for each value of outsideCounter,
 // the inside loop will show a countdown
