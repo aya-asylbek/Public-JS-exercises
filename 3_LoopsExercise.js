@@ -37,7 +37,13 @@ function exercise3() {
 // Exercise 4. Now we want a loop that prints the integers
 // counting DOWN from 10 to 1 (inclusive). Write three loops that do this, to practice
 // writing loops in all 3 ways -- as a 'while', 'do while', and 'for' loop.
-
+function exercise4While() {
+  let i = 10;
+  while (i >= 1) {
+    console.log(i);
+    i--;
+  }
+}
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
