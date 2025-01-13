@@ -80,7 +80,7 @@ const C = 4;
 const D = "D";
 
 // What is the value of B + C
-const myAnswerForExercise13 = "";
+const myAnswerForExercise13 = "5";
 
 // Exercise 14 What is the value of
 // A + "n" + D
