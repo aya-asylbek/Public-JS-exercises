@@ -97,7 +97,7 @@ const myAnswerForExercise16 = "NaN";
 const myAnswerForExercise17 = "true";
 
 // Exercise 18 What is the value of 1 === "1"
-const myAnswerForExercise18 = "";
+const myAnswerForExercise18 = "false";
 
 // Exercise 19 What is the value of 1 == "1"
 const myAnswerForExercise19 = "";
