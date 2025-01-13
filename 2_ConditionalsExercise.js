@@ -128,7 +128,11 @@ function exercise4(varA, varB) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+   if (varA === varB) {
+    answer4 = "varA and varB are equal";
+   } else {
+    answer4 = "varA and varB differ";
+   }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
