@@ -143,7 +143,9 @@ function exercise4(varA, varB) {
 // In exercise 4, what are some of the unexpected cases where `varA` and `varB`
 // seemed like they are equal, but would not pass the tests? In your analysis
 // consider other data types beside strings and variables.
-
+// Let's say for example if varA and varB are different types ,even if they similar value
+// they can/t be equal with ===.Or if varA and VarB are value is NaN (not a number) the ===
+// will not work.
 // EXERCISE 6.
 // Here, assign the value of true to answer6 if:
 // `varA` and `varB` are equal, but `varA` or `varB` does not equal `varC`
