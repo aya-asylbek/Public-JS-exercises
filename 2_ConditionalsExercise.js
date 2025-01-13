@@ -239,7 +239,11 @@ function exercise9(item) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  if (typeof item === "number") {
+    answer9 = "You won!";
+  } else {
+    answer9 = `Please send a number, that was a ${typeof item}.`;
+  }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
