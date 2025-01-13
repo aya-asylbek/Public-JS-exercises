@@ -44,7 +44,7 @@ let theSum = num1 + num2;
 // Exercise 8. Now we will try some multiplication.
 // Make a new variable called 'theProduct', multiply num1 and num2 and assign
 // the resulting value to 'theProduct'.
-
+let theProduct = num1 * num2;
 // Exercise 9.
 // Make a new variable called 'statement' and using 'myName' and
 // 'dreamDestination' and the concatenation method of your choice, make the
