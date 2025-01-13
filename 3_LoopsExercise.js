@@ -113,7 +113,7 @@ function exercise6For() {
 // counterFour is equal to -100.
 
 let counterFour = 1;
-while (counterFour < 2) {
+while (counterFour > -100) {
   console.log("HELP ME!");
   counterFour--;
 }
