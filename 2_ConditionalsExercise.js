@@ -155,7 +155,11 @@ function exercise6(varA, varB, varC) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  if (varA === varB && varA !== varC && varB !== varC) {
+    answer6 = true;
+  } else {
+    answer6 = false;
+  }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
