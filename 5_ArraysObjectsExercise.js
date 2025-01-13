@@ -10,17 +10,17 @@
 // But make sure you understand why the correct answer is right.
 
 // Exercise 1. Make an empty array named animals
-
+let animals = [];
 // Exercise 2. Add the string "frog" to the array
-
+animals.push("frog");
 // Exercise 3. Add 4 more animals of your choice to the array. Try to add all of them in one line of code.
-
+animals.push("dog", "cat", "elephant", "tiger");
 // Exercise 4. Update the first item in the array to be "gorilla"
-
+animals[0] = "gorilla";
 // Exercise 5. Print the number of items in the array (use the array property that will give you this information)
-
+console.log(animals.length);
 // Exercise 6. Print the first item in the array
-
+console.log(animals[0]); 
 // Exercise 7. Print the last item in the array (as part of your answer, use the same array property you used in exercise 5 above)
 
 // Exercise 8. Remove the last item from the array
