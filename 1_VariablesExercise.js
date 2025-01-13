@@ -100,7 +100,7 @@ const myAnswerForExercise17 = "true";
 const myAnswerForExercise18 = "false";
 
 // Exercise 19 What is the value of 1 == "1"
-const myAnswerForExercise19 = "";
+const myAnswerForExercise19 = "true";
 
 // Exercise 20 What is the value of 1 < 1
 const myAnswerForExercise20 = "";
