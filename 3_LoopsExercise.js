@@ -43,6 +43,19 @@ function exercise4While() {
     console.log(i);
     i--;
   }
+} 
+function exercise4DoWhile() {
+  let i = 10;
+  do {
+    console.log(i);
+    i--;
+  } while (i >= 1);
+}
+
+function exercise4For() {
+  for (let i = 10; i >= 1; i--) {
+    console.log(i);
+  }
 }
 // Exercise 5. Write a loop that prints the integers from 7 to 27. Write this
 // loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
