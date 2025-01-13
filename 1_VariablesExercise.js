@@ -103,7 +103,7 @@ const myAnswerForExercise18 = "false";
 const myAnswerForExercise19 = "true";
 
 // Exercise 20 What is the value of 1 < 1
-const myAnswerForExercise20 = "";
+const myAnswerForExercise20 = "false";
 
 // Exercise 21 What is the value of 1 < 2 < 3
 const myAnswerForExercise21 = "";
