@@ -30,15 +30,17 @@ let num2 = 10;
 // for num1 and num2 from Exercise 5. What numbers would be valid values for
 // num2 but not num1?
 //
-// For num1 the value should be greater than > 1
+// Comment: For num1 the value should be greater than > 1
 // but less than 10( numbers are 2,3,4,5,6,7,8,9)
 // For num2 a value  should be a greater than > or === 1 and < or === 10(numbers are 1,2,3,4,5,6,7,8,9,10)
-// (numbers 1 and 10 included in num2 ,in num1 there is no numbers included)
+// (numbers 1 and 10 included in num2 and valid ,in num1 there is no numbers included)
 // Exercise 7. Now we will try some addition.
 // a. Assign the the values of 4 and 6 to num1 and num2, respectively.
 // b. Make a new variable called 'theSum', and use 'num1' and
 // 'num2' to assign its value using the "+" operator.
-
+num1 = 4;
+num2 = 6;
+let theSum = num1 + num2;
 // Exercise 8. Now we will try some multiplication.
 // Make a new variable called 'theProduct', multiply num1 and num2 and assign
 // the resulting value to 'theProduct'.
