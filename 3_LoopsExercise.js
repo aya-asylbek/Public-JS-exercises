@@ -85,6 +85,29 @@ function exercise5For() {
 // I.e. it will print 10, then 20, then 30, etc.
 // Write this loop in all 3 ways -- as a 'while', 'do while', and 'for' loop.
 
+function exercise6While() {
+  let i = 10;
+  while (i <= 100) {
+    console.log(i);
+    i += 10;
+  }
+}
+
+function exercise6DoWhile() {
+  let i = 10;
+  do {
+    console.log(i);
+    i += 10;
+  } while (i <= 100);
+}
+
+
+function exercise6For() {
+  for (let i = 10; i <= 100; i += 10) {
+    console.log(i);
+  }
+}
+
 // Exercise 7. Add a comment as to why the following loop is an infinite loop (will
 // run without ever stopping). Then fix the loop so that it stops when
 // counterFour is equal to -100.
