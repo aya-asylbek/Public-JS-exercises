@@ -23,7 +23,7 @@ let dreamDestination = 'Hawaii';
 // Exercise 5. Make the following variables and assignments
 // - a variable called num1 with a value greater than 1 and less than 10
 // - a variable called num2 with a value of greater than or equal to 1 and less
-// than or equal to 10
+// than or equal to 10.
 let num1 = 5;
 let num2 = 10;
 // Exercise 6. Write a comment below explaining the difference between the rules
@@ -32,7 +32,8 @@ let num2 = 10;
 //
 // For num1 the value should be greater than > 1
 // but less than 10( numbers are 2,3,4,5,6,7,8,9)
-//For num2 a value a greater than 
+// For num2 a value  should be a greater than > or === 1 and < or === 10(numbers are 1,2,3,4,5,6,7,8,9,10)
+// (numbers 1 and 10 included in num2 ,in num1 there is no numbers included)
 // Exercise 7. Now we will try some addition.
 // a. Assign the the values of 4 and 6 to num1 and num2, respectively.
 // b. Make a new variable called 'theSum', and use 'num1' and
