@@ -286,6 +286,6 @@ function exercise10(num10) {
 //Yes ,it was harder than previous exercises, i used references to refresh my knowledge 
 //regarding functionsz;
 //https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/if...else
 
 // Email your file to us or commit your file to GitHub and email us a link.
