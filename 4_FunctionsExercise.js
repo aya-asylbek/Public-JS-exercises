@@ -60,7 +60,13 @@ console.log(shouldGetDiscount(70));
 // Exercise 6. Write a function that takes 2 parameters -- one number and one string.
 // The function should print the string the given number of times.
 // Then write some function calls you would use to test your function.
-
+function printStringNTimes(num, str) {
+  for (let i = 0; i < num; i++) {
+    console.log(str);
+  }
+}
+printStringNTimes(3, "Hello"); 
+printStringNTimes(2, "World"); 
 // Exercise 7. Read the following code (don't run it yet)
 function mysteryFunction1(p1) {
   return p1 * 2;
