@@ -114,9 +114,9 @@ const myAnswerForExercise22 = "true";
 // Congrats, you made it to the end!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
-//I think this part was easy, but for some of them i used references such as :
-https://www.w3schools.com/js/js_datatypes.asp
-https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
+//I think this part was easy, but for some of them i used references such as(data types,boolean,variables)
+//https://www.w3schools.com/js/js_datatypes.asp
+//https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean
 //https://developer.mozilla.org/en-US/docs/Learn_web_development/Core/Scripting/Variables
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
