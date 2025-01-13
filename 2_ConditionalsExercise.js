@@ -104,7 +104,13 @@ function exercise3(num3) {
   // --------------------------------------------
   // Write your code for the exercise below here:
   // --------------------------------------------
-
+  if (num3 > 0) {
+    answer3 = `${num3} is positive`;
+  } else if (num3 < 0) {
+    answer3 = `${num3} is negative`;
+  } else {
+    answer3 = `${num3} is zero`;
+  }
   // --------------------------------------------
   // And above here
   // --------------------------------------------
