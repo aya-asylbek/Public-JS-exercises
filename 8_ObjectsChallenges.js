@@ -57,7 +57,16 @@ function values(obj) {
 // [["first","Matt"], ["last","Lane"], ["isDogOwner",true]]
 // let obj3 = {};
 // entries(obj3); // []
-
+function entries(obj) {
+    let result = [];
+    for (let key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        result.push([key, obj[key]]);
+      }
+    }
+    return result;
+  }
+  
 // Exercise 4. Write a function called pluck, which takes an array of objects and the name of a key.
 // The function should return an array containing the value associated with that key for each object, or undefined if that key is not present in the object.
 // Examples:
