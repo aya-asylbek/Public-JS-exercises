@@ -6,7 +6,11 @@
 //Add the property surname with the value Smith.
 //Change the value of the name to Pete.
 //Remove the property name from the object.
-
+let user = {};
+user.name = "John";
+user.surname = "Smith";
+user.name = "Pete";
+delete user.name;
 //2.Check for emptiness
 //Write the function isEmpty(obj) which returns true if the object has no properties, false otherwise.
 
