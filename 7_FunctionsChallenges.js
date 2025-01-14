@@ -91,3 +91,20 @@ function indexOf(arr, num) {
 // includes('abcd', 'b') // --> true
 // includes('abcd', 'e') // --> false
 // includes('abcd', 'a', 2) // --> false
+function includes(collection, value, startIndex = 0) {
+    if (typeof collection === 'string' || Array.isArray(collection)) {
+      for (let i = startIndex; i < collection.length; i++) {
+        if (collection[i] === value) {
+          return true;
+        }
+      }
+      return false;
+    } else if (typeof collection === 'object') {
+      for (let key in collection) {
+        if (collection[key] === value) {
+          return true;
+        }
+      }
+      return false;
+    }
+  }
