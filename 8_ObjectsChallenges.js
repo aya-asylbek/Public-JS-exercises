@@ -90,7 +90,15 @@ function pluck(arr, key) {
 // stringFromObject({ name: 'Elie', job: 'Instructor', isCatOwner: false });
 // "name = Elie, job = Instructor, isCatOwner = false"
 // stringFromObject({}); // ""
-
+function stringFromObject(obj) {
+    let result = [];
+    for (let key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        result.push(`${key} = ${obj[key]}`);
+      }
+    }
+    return result.join(', ');
+  }
 // Exercise 6. Write a function called minMaxKeyInObject that accepts an object with numeric keys.*
 // The function should return an array with the following format: [lowestKey, highestKey]
 // Examples:
