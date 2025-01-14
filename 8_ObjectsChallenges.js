@@ -36,7 +36,15 @@ function keys(obj) {
 // values(obj2); // ["Matt", "Lane", true]
 // let obj3 = {};
 // values(obj3); // []
-
+function values(obj) {
+    let result = [];
+    for (let key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        result.push(obj[key]);
+      }
+    }
+    return result;
+  }
 // Exercise 3. Write a function called entries, which accepts an object and returns an array of arrays of key-value pairs.
 // In other words, each sub-array is an "entry" in the object with two elements: the first element is the key, and the second element is the value.
 // IMPORTANT: Do not use the built in Object.entries() function!
