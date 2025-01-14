@@ -18,7 +18,7 @@
 function prependToString(str1, str2) {
     return str2 + str1;
   }
-  
+
 
 // Exercise 2. Write a function called stringIncludes, which accepts two strings: the first string is a word and the second string is a single character.
 // The function should return true if the first string includes the character, otherwise it should return false.
@@ -26,7 +26,15 @@ function prependToString(str1, str2) {
 // Examples:
 // stringIncludes('awesome', 'e'); // --> true
 // stringIncludes('awesome', 'z'); // --> false
-
+ function stringIncludes(word, character) {
+    for (let i = 0; i < word.length; i++) {
+      if (word[i] === character) {
+        return true;
+      }
+    }
+    return false;
+  }
+  
 // Exercise 3. Write a function called stringLastIndexOf, which accepts two strings: the first is a word and the second is a single character.
 // The function should return the last index at which the character exists or -1 if the character is not found.
 // IMPORTANT: Do not use the built in "string".lastIndexOf() function!
