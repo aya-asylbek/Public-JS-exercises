@@ -23,7 +23,12 @@ delete user.name;
 // schedule["8:30"] = "get up";
 
 // alert( isEmpty(schedule) ); // false
-
+function isEmpty(obj) {
+    for (let key in obj) {
+      return false;
+    }
+    return true;
+  }
 //3.Sum object properties
 // We have an object storing salaries of our team:
 
