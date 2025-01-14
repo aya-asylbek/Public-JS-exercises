@@ -58,7 +58,10 @@ function stringLastIndexOf(word, character) {
 // removeFromString('Hello School', 0, 6) // --> 'School'
 // removeFromString('Hello School', 2, 4) // --> 'HeSchool'
 // removeFromString('Hello School', 6, 400) // --> 'Hello '
-
+function removeFromString(str, startIndex, numCharacters) {
+    return str.slice(0, startIndex) + str.slice(startIndex + numCharacters);
+  }
+  
 // Exercise 5. Write a function called indexOf, which accepts an array and a number.
 // The function should return the first index at which the value exists or -1 if the value is not found.
 // IMPORTANT: Do not use the built in array.indexOf() function!
