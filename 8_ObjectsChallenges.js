@@ -106,3 +106,15 @@ function stringFromObject(obj) {
 // [1, 10]
 // minMaxKeyInObject({ 1: 'Elie', 4: 'Matt', 2: 'Tim' });
 // [1, 4]
+function minMaxKeyInObject(obj) {
+    let keys = [];
+    for (let key in obj) {
+      if (obj.hasOwnProperty(key)) {
+        keys.push(Number(key));
+      }
+    }
+    let min = Math.min(...keys);
+    let max = Math.max(...keys);
+    return [min, max];
+  }
+  
