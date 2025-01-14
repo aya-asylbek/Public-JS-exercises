@@ -41,7 +41,15 @@ function prependToString(str1, str2) {
 // Examples:
 // stringLastIndexOf('awesome', 'e'); // --> 6
 // stringLastIndexOf('awesome', 'z'); // --> -1
-
+function stringLastIndexOf(word, character) {
+    for (let i = word.length - 1; i >= 0; i--) {
+      if (word[i] === character) {
+        return i;
+      }
+    }
+    return -1;
+  }
+  
 // Exercise 4. Write a function called removeFromString, which accepts a string, a starting index (number) and a number of characters to remove.
 // The function should return a new string with the characters removed.
 // Examples:
