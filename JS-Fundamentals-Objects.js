@@ -77,5 +77,13 @@ alert(sum);
 
 //P.S. Use typeof to check for a number here.
 
+function multiplyNumeric(obj) {
+  for (let key in obj) {
+    if (typeof obj[key] == 'number') {
+      obj[key] *= 2;
+    }
+  }
+}
+
 
 
