@@ -74,7 +74,13 @@ function entries(obj) {
 // ["Tim", "Matt", "Elie"]
 // pluck([{ name: "Tim", isBoatOwner: true }, { name: "Matt", isBoatOwner: false }, { name: "Elie" }],'isBoatOwner')
 // [true, false, undefined]
-
+function pluck(arr, key) {
+    let result = [];
+    for (let obj of arr) {
+      result.push(obj[key]);
+    }
+    return result;
+  }
 // Exercise 5. Write a function called stringFromObject that generates a string from an object's key/value pairs.
 // The format should be "key = value, key = value".
 // Each key/value pair should be separated by a comma and space except for the last pair.
