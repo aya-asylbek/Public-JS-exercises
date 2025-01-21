@@ -14,14 +14,20 @@ myReplace("Let us get back to more Coding", "Coding", "algorithms") should retur
 
 */
 function myReplace(sentence , before,after){
-    sentence.replace (before ,after);
-    return sentence.replace(before,after);
-  }
-  myReplace("Let us go to the store", "store", "mall");
+        if (before[0] === before[0].toUpperCase()) {
+          after = after[0].toUpperCase() + after.slice(1);
+        } else {
+          after = after[0].toLowerCase() + after.slice(1);
+        }
+        return sentence.replace(before, after);
+      }
+      console.log(myReplace("Let us go to the store", "store", "mall")); // "Let us go to the mall."
+      console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting")); // "He is Sitting on the couch."
+      console.log(myReplace("I think we should look up there", "up", "Down")); // "I think we should look down there."
+      console.log(myReplace("This has a spellngi error", "spellngi", "spelling")); // "This has a spelling error."
+      console.log(myReplace("His name is Tom", "Tom", "john")); // "His name is John."
+      console.log(myReplace("Let us get back to more Coding", "Coding", "algorithms")); // "Let us get back to more Algorithms."
+      
+
+
   
-  console.log(myReplace("Let us go to the store", "store", "mall")); // "Let us go to the mall."
-  console.log(myReplace("He is Sleeping on the couch", "Sleeping", "sitting")); // "He is Sitting on the couch."
-  console.log(myReplace("I think we should look up there", "up", "Down")); // "I think we should look down there."
-  console.log(myReplace("This has a spellngi error", "spellngi", "spelling")); // "This has a spelling error."
-  console.log(myReplace("His name is Tom", "Tom", "john")); // "His name is John."
-  console.log(myReplace("Let us get back to more Coding", "Coding", "algorithms")); // "Let us get back to more Algorithms."
